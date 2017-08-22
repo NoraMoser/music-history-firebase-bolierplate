@@ -2,9 +2,9 @@
 
 function getKey() {
   return {
-    apiKey: "reallyLongValue",
-    authDomain: "something.firebaseapp.com",
-    databaseURL: "https://something.firebaseio.com"
+    apiKey: "AIzaSyAE1TNWR4yq-y53ST4Pq4nmylAgDNVO2Zw",
+    authDomain: "another-project-a7288.firebaseapp.com",
+    databaseURL: "https://another-project-a7288.firebaseio.com/"
   };
 }
 
