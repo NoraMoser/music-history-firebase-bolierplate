@@ -1,5 +1,6 @@
 "use strict";
 
+
 let firebase = require("firebase/app"),
     fb = require("./fb-getter"),
     fbData = fb();
@@ -14,10 +15,12 @@ var config = {
 };
 
 
-firebase.getFBsettings = function(){
-	 console.log("getFBsettings", config);
-	 return config;
+firebase.initializeApp(config);
+
+firebase.getFBsettings = () => {
+	console.log("getFBsettings", config);
+	return config;
 };
 
-// firebase.initializeApp(config);
 module.exports = firebase;
+
